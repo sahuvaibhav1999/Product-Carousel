@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Carousel Card</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <i id="left" class="ri-skip-back-line"></i>
+            <div class="carousel">
+                <div class="card">
+                    <div class="image-content">
+                        <img class="card-image" src="images/tandoori-pizza.jpeg" alt="Tandoori Pizza">
+                    </div>
+                    <h3 class="card-title">Tandoori Pizza</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityA')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityA" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityA')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/veggie-supreme.jpg" alt="Veggie Supreme">
+                    <h3 class="card-title">Veggie Supreme</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityB')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityB" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityB')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/margherita-pizza.webp" alt="Marghertia Pizza">
+                    <h3 class="card-title">Marghertia Pizza</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityC')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityC" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityC')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/chicken-tikka.jpg" alt="Chicken Tikka">
+                    <h3 class="card-title">Chicken Tikka</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityD')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityD" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityD')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/chicken-supreme.jpg" alt="Chicken Supreme">
+                    <h3 class="card-title">Chicken Supreme</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityE')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityE" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityE')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/momo-pizza.webp" alt="Momo Pizza">
+                    <h3 class="card-title">Momo Pizza</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityF')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityF" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityF')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/garlic-pizza-bread.jpeg" alt="Garlic Bread">
+                    <h3 class="card-title">Garlic Bread</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityG')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityG" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityG')">+</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="images/tearAndShare.jpeg" alt="Tear and Share">
+                    <h3 class="card-title">Tear and Share</h3>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. This is very interesting to eat. This is one of my presonal favourite. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    <div class="card-quantity">
+                        <button id="minus" onclick="minus('quantityH')">-</button>
+                        |
+                        <input type="number" class="input" id="quantityH" value="0">
+                        |
+                        <button id="plus" onclick="plus('quantityH')">+</button>
+                    </div>
+                </div>
+
+            </div>
+            <i id="right" class="ri-skip-forward-line"></i>
+        </div>
+    </body>
+    </html>

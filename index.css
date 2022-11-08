@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.carousel {
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    padding: 0 10px ;
+}
+
+.card {
+    width: calc(100%/3);
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* width: 300px; */
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-image {
+    width: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.card-description {
+    margin: 20px 10px;
+}
+
+.card-quantity {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 110px;
+    padding: 2px;
+    white-space: nowrap;
+    margin: 0 0 10px 20px;
+}
+
+#plus {
+    height: 20px;
+    width: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+#minus {
+    height: 20px;
+    width: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.input {
+    width: 39px;
+    border: none;
+    text-align: center;
+}
+
+.input input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.wrapper i {
+    top: 35%;
+    background: #FFF;
+    font-size: 40px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-25%);
+}
+
+.wrapper i:first-child {
+    left: 0px;
+    /* display: none; */
+}
+
+.wrapper i:last-child {
+    right: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: calc(100% / 2);
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    .card {
+        width: 100%;
+    }
+} 
